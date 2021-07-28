@@ -1,0 +1,1 @@
+export { VerticalSplitter } from './VerticalSplitter';

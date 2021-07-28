@@ -50,6 +50,7 @@
     "import/no-duplicates": "off",
     "no-plusplus": "off",
     "import/no-extraneous-dependencies": "off",
+    "react/react-in-jsx-scope": "off",
     "import-helpers/order-imports": [
       "warn",
       {

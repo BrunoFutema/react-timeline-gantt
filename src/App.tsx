@@ -2,12 +2,15 @@ import React from 'react';
 
 import { GlobalStyles } from '@styles/global';
 
+import { AppProvider } from './contexts';
+import { Routes } from './routes';
+
 const App: React.FC = () => {
   return (
-    <>
-      <h1>Hello React App</h1>
+    <AppProvider>
+      <Routes />
       <GlobalStyles />
-    </>
+    </AppProvider>
   );
 };
 
